@@ -1,0 +1,91 @@
+body {
+    font-family: 'Space Grotesk', Arial, sans-serif;
+    margin: 0px;
+    background-color: #0D1017;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+    min-height: 630px;
+    max-width: 1200px;
+}
+
+#moover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+h1 {
+    font-size: 96px;
+    color: #E6ECF3;
+}
+
+p {
+    font-size: 28px;
+    font-weight: lighter;
+    color: #E6ECF3;
+}
+
+.secondary-p {
+    font-size: 17px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+#home-btn, #rationale-btn {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+#find-out-btn, #home-btn, #rationale-btn {
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: #6900ff;
+}
+
+a:link {
+    color: #6900ff;
+}
+
+a:visited {
+    color: #6900ff;
+}
+
+a:focus {
+    text-decoration: none;
+    background: #bae498;
+}
+
+a:hover {
+    text-decoration: none;
+    background: #cdfeaa;
+}
+
+a:active {
+    color: #cdfeaa;
+}
+
+#youtube-link {
+    color: #FF0000;
+}
+
+.full-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
