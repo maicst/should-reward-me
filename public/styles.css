@@ -4,44 +4,141 @@ body {
     background-color: #0D1017;
 }
 
-#content {
+#navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.material-symbols-outlined {
+    font-size: 28px;
+}
+
+
+#home-logo {
+    font-size: 46px;
+}
+
+.full-width-div {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 90%;
-    min-height: 630px;
+    width: 100%;
+    min-width: 820px;
     max-width: 1200px;
 }
 
-#moover {
+#main-content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    width: 90%;
-    max-width: 1200px;
+}
+
+#should-reward-container {
+    align-items: center;
+    height: 85vh;
+}
+
+#find-out-div {
+    align-items: center;
+}
+
+#rationale-p {
+    max-width: 660px;
 }
 
 h1 {
-    font-size: 96px;
+    font-size: 150px;
+    color: #E6ECF3;
+}
+
+h2 {
+    font-size: 63px;
     color: #E6ECF3;
 }
 
 p {
-    font-size: 28px;
+    font-size: 18px;
     font-weight: lighter;
     color: #E6ECF3;
-}
-
-.secondary-p {
-    font-size: 17px;
 }
 
 a {
     outline: none;
     text-decoration: none;
-    font-size: 32px;
 }
+
+a:link {
+    color: #6900ff;
+}
+
+a:visited {
+    color: #6900ff;
+}
+
+a:focus {
+    text-decoration: none;
+    background: #bae498;
+}
+
+a:hover {
+    text-decoration: none;
+    background: #cdfeaa;
+}
+
+a:active {
+    color: #cdfeaa;
+}
+
+#find-out-btn {
+    font-size: 28px;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 11px;
+    border-color: #6900ff;
+}
+
+@media (max-width:981px)  {
+    /* For mobile */
+
+    .material-symbols-outlined {
+        font-size: 64px;
+    }
+
+    #home-logo {
+        font-size: 96px;
+    }
+    
+
+    #should-reward-container {
+        justify-content: space-around;
+    }
+
+    #should-reward-div {
+        align-items: center;
+    }
+
+    #find-out-btn {
+        font-size: 68px;
+    }
+
+    h2 {
+        font-size: 101px;
+        font-weight: lighter;
+    }
+
+    #rationale-p {
+        font-size: 31px;
+        max-width: 100%;
+    }
+
+    p {
+        font-size: 31px
+    }
+}
+
+/*
 
 #home-btn, #rationale-btn {
     font-size: 17px;
@@ -88,4 +185,4 @@ a:active {
     align-items: center;
     width: 100%;
     height: 100vh;
-}
+} */
